@@ -20,17 +20,17 @@
 We release the generated summaries from different models:
 
 * **generated_summary_NeuS:** the generated summaries on NeuS dataset
-  * _test_data:_ the test set, the model generated summaries are listed in the order of test_0, test_1, ..., test_306
-  * _llama_baseline:_ the generated summaries from Llama-2 baseline model
-  * _llama_event_relation_graph:_ the generated summaries from Llama-2 + event relation graph model
-  * _led_baseline:_ the generated summaries from Longformer-Encoder-Decoder (LED) baseline model
-  * _led_event_relation_graph:_ the generated summaries from LED + event relation graph model
-  * _lexrank:_ the generated summaries from LexRank model
-  * _bart_large_cnn:_ the generated summaries from BART-CNN baseline
-  * _bart_large_multi:_ the generated summaries from BART-Multi baseline
-  * _pegasus_cnn:_ the generated summaries from Pegasus-CNN baseline
-  * _pegasus_multi:_ the generated summaries from Pegasus-Multi baseline
-  * _neus:_ the generated summaries from NeuS baseline model (https://aclanthology.org/2022.naacl-main.228/)
+  * _test_data folder:_ the test set, including the input articles and human written references, the generated summaries from the below models are listed in the order of test_0, test_1, ..., test_306 in each txt file
+  * _llama_baseline.txt:_ the generated summaries from Llama-2 baseline model
+  * _llama_event_relation_graph.txt:_ the generated summaries from Llama-2 + event relation graph model
+  * _led_baseline.txt:_ the generated summaries from Longformer-Encoder-Decoder (LED) baseline model
+  * _led_event_relation_graph.txt:_ the generated summaries from LED + event relation graph model
+  * _lexrank.txt:_ the generated summaries from LexRank baseline
+  * _bart_large_cnn.txt:_ the generated summaries from BART-CNN baseline
+  * _bart_large_multi.txt:_ the generated summaries from BART-Multi baseline
+  * _pegasus_cnn.txt:_ the generated summaries from Pegasus-CNN baseline
+  * _pegasus_multi.txt:_ the generated summaries from Pegasus-Multi baseline
+  * _neus.txt:_ the generated summaries from NeuS baseline model (https://aclanthology.org/2022.naacl-main.228/)
 
 
 <br/>
