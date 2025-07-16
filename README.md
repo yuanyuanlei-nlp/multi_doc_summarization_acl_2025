@@ -20,7 +20,7 @@
 We release the generated summaries from different models:
 
 * **generated_summary_NeuS:** the generated summaries on NeuS dataset
-  * _test_data folder:_ the test set, including the input articles and human written reference for each cluster of testing articles, the generated summaries from each model are listed in the order of test_0, test_1, ..., test_306 in each txt file as below
+  * _test_data folder:_ the test set, including the input articles and human written reference for each cluster of articles, the generated summaries from each model are listed in the order of test_0, test_1, ..., test_306 in each txt file as below
   * _llama_baseline.txt:_ the generated summaries from Llama-2 baseline model
   * _llama_event_relation_graph.txt:_ the generated summaries from Llama-2 + event relation graph model
   * _led_baseline.txt:_ the generated summaries from Longformer-Encoder-Decoder (LED) baseline model
